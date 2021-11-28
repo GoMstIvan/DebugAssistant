@@ -1,7 +1,7 @@
 from test_package.test_class import test_class
 
 import sys
-sys.path.append('../../packages_custom/Share_py')
+sys.path.append('../Share_py')
 
 def sub_function(x):
     y1 = x+1
@@ -10,7 +10,7 @@ def sub_function(x):
 
 if __name__ == '__main__':
     my_class = test_class()
-    my_class.f_call()
+    my_class.function_call()
 
     x = 1
     y = sub_function(x)
