@@ -16,7 +16,7 @@ class test_class():
         c = [100]
         d = {0: 10}
 
-        var_register.goto_switch(state=False, index=[], ignore_var=['time_all'])
+        var_register.goto_switch(state=True, index=[], ignore_var=['time_all'])
 
         # preprocess
         var_register.goto_start(1)
